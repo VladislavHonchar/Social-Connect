@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+.box_btn{
+    margin-top: 10px;
+    width: 90%;
+}
+.chat_btn{
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    transition: .4s;
+}
+.chat_btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: .4s;
+}

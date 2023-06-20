@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.reg_main_contaner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Pacifico', cursive;
+}
+
+.reg_container{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 0px black;
+}
+.reg_age,.reg_lastname,.reg_firstname,.reg_pass,.reg_email{
+    width: 300px;
+    padding: 8px;
+    outline: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.reg_photo{
+    display: none;
+}
+.reg_sub{
+    width: 150px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+    transition: .5s;
+}
+.reg_sub:hover{
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    color: #fff;
+    cursor: pointer;
+}

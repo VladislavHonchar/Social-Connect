@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+.container{
+    display: flex;
+    justify-content: center;
+    background-image: url('assets/img/Lovepik_com-400542036-abstract-geometric-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 960px;
+}
+.navigate{
+    width: 200px;
+    height: 960px;
+}
+.info{
+    width: 1000px;
+    background-color: rgb(226, 226, 226);
+}

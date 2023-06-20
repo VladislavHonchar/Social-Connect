@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.main_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 40px;
+  margin-top: 20px;
+  width: 80%;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.main_container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+}
+
+.title {
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Pacifico', cursive;
+}
+
+span {
+  font-family: 'Pacifico', cursive;
+  display: flex;
+  padding-top: 20px;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+
+.file {
+  display: none;
+}
+
+.btn_sub {
+  font-family: 'Pacifico', cursive;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  background: transparent;
+  color: #000000;
+  padding: 10px;
+  margin-top: 20px;
+  transition: opacity 0.5s, background-color 0.5s, color 0.5s, border-color 0.5s;
+  font-size: 20px;
+}
+
+.btn_sub:hover {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.arrow_back{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+
+.btn_showForm:hover, .btn_cancel:hover{
+    cursor: pointer;
+}
+.btn_showForm{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
